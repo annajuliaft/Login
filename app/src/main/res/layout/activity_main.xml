@@ -58,8 +58,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Esqueceu sua senha?"
-        tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="570dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
@@ -68,18 +66,13 @@
         android:background="@drawable/btn_fundo"
         android:text="Cadastre-se"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="570dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
-        android:layout_width="match_parent"
         android:layout_height="45dp"
         android:background="@drawable/btn_fundo"
         android:text="Entrar"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="615dp" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -94,28 +87,18 @@
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/editTextText"
-            android:layout_width="0dp"
             android:layout_height="45dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="32dp"
             android:background="@color/white"
             android:ems="10"
             android:inputType="text" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/editTextTextPassword2"
-            android:layout_width="0dp"
-            android:layout_height="45dp"
-            android:background="@drawable/caixa_texto"
             android:ems="10"
             android:inputType="textPassword" />
     </androidx.cardview.widget.CardView>
