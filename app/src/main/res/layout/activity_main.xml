@@ -57,42 +57,22 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
         android:text="Esqueceu sua senha?"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.738"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="110dp"
         android:layout_height="35dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
         android:background="@drawable/btn_fundo"
         android:text="Cadastre-se"
         android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
-        android:layout_width="0dp"
         android:layout_height="45dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="8dp"
         android:background="@drawable/btn_fundo"
         android:text="Entrar"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.393" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -107,36 +87,18 @@
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/editTextText"
-            android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="0dp"
             android:background="@color/white"
             android:ems="10"
             android:inputType="text" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2"
-        android:layout_width="349dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/editTextTextPassword"
-            android:layout_width="349dp"
-            android:layout_height="46dp"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@color/white"
             android:ems="10"
             android:inputType="textPassword" />
     </androidx.cardview.widget.CardView>
